@@ -1,0 +1,77 @@
+CaseID,EventNo,Activity,Timestamp,Resource,Department,EmployeeID,ClaimAmount,PreviousActivity,ActivityDurationMin
+RC001,1,Submit Claim,02-07-2026 15:29,Employee,IT,E1008,1200,,149
+RC002,1,Submit Claim,01-07-2026 20:16,Employee,Sales,E1001,8700,,16
+RC002,2,Manager Review,01-07-2026 23:12,Mgr_C,Sales,E1001,8700,Submit Claim,176
+RC002,3,Finance Review,02-07-2026 01:41,Fin_2,Sales,E1001,8700,Manager Review,149
+RC002,4,Approve Reimbursement,02-07-2026 02:47,Finance_Manager,Sales,E1001,8700,Finance Review,66
+RC002,5,Payment,02-07-2026 05:27,Accounts,Sales,E1001,8700,Approve Reimbursement,160
+RC003,1,Submit Claim,02-07-2026 21:36,Employee,Operations,E1011,2500,,96
+RC004,1,Submit Claim,05-07-2026 21:21,Employee,Sales,E1012,8700,,21
+RC005,1,Submit Claim,04-07-2026 08:42,Employee,Operations,E1003,1800,,102
+RC005,2,Manager Review,04-07-2026 09:09,Mgr_A,Operations,E1003,1800,Submit Claim,27
+RC005,3,Finance Review,04-07-2026 12:08,Fin_1,Operations,E1003,1800,Manager Review,179
+RC005,4,Approve Reimbursement,04-07-2026 13:32,Finance_Manager,Operations,E1003,1800,Finance Review,84
+RC005,5,Payment,04-07-2026 14:41,Accounts,Operations,E1003,1800,Approve Reimbursement,69
+RC006,1,Submit Claim,05-07-2026 20:03,Employee,Operations,E1021,4500,,63
+RC006,2,Manager Review,05-07-2026 22:58,Mgr_A,Operations,E1021,4500,Submit Claim,175
+RC006,3,Finance Review,06-07-2026 01:43,Fin_1,Operations,E1021,4500,Manager Review,165
+RC006,4,Approve Reimbursement,06-07-2026 04:09,Finance_Manager,Operations,E1021,4500,Finance Review,146
+RC007,1,Submit Claim,06-07-2026 08:33,Employee,Operations,E1009,12000,,93
+RC007,2,Manager Review,06-07-2026 09:41,Mgr_A,Operations,E1009,12000,Submit Claim,68
+RC008,1,Submit Claim,02-07-2026 13:30,Employee,IT,E1003,8700,,90
+RC008,2,Manager Review,02-07-2026 16:27,Mgr_B,IT,E1003,8700,Submit Claim,177
+RC008,3,Finance Review,02-07-2026 18:18,Fin_2,IT,E1003,8700,Manager Review,111
+RC009,1,Submit Claim,05-07-2026 10:39,Employee,HR,E1008,4500,,159
+RC009,2,Manager Review,05-07-2026 13:18,Mgr_B,HR,E1008,4500,Submit Claim,159
+RC010,1,Submit Claim,04-07-2026 00:38,Employee,HR,E1017,3200,,38
+RC010,2,Manager Review,04-07-2026 03:28,Mgr_A,HR,E1017,3200,Submit Claim,170
+RC010,3,Manager Review,04-07-2026 05:26,Mgr_C,HR,E1017,3200,Manager Review,118
+RC010,4,Finance Review,04-07-2026 05:52,Fin_2,HR,E1017,3200,Manager Review,26
+RC010,5,Finance Review,04-07-2026 07:39,Fin_2,HR,E1017,3200,Finance Review,107
+RC011,1,Submit Claim,06-07-2026 11:27,Employee,Marketing,E1028,4500,,147
+RC011,2,Manager Review,06-07-2026 14:21,Mgr_B,Marketing,E1028,4500,Submit Claim,174
+RC011,3,Manager Review,06-07-2026 14:59,Mgr_B,Marketing,E1028,4500,Manager Review,38
+RC011,4,Finance Review,06-07-2026 17:00,Fin_1,Marketing,E1028,4500,Manager Review,121
+RC011,5,Approve Reimbursement,06-07-2026 19:06,Finance_Manager,Marketing,E1028,4500,Finance Review,126
+RC011,6,Payment,06-07-2026 20:23,Accounts,Marketing,E1028,4500,Approve Reimbursement,77
+RC012,1,Submit Claim,04-07-2026 19:45,Employee,IT,E1027,1800,,105
+RC012,2,Manager Review,04-07-2026 22:13,Mgr_C,IT,E1027,1800,Submit Claim,148
+RC012,3,Finance Review,04-07-2026 22:23,Fin_2,IT,E1027,1800,Manager Review,10
+RC012,4,Approve Reimbursement,05-07-2026 00:38,Finance_Manager,IT,E1027,1800,Finance Review,135
+RC012,5,Payment,05-07-2026 01:16,Accounts,IT,E1027,1800,Approve Reimbursement,38
+RC013,1,Submit Claim,06-07-2026 03:14,Employee,Sales,E1008,3200,,134
+RC013,2,Manager Review,06-07-2026 05:40,Mgr_A,Sales,E1008,3200,Submit Claim,146
+RC013,3,Finance Review,06-07-2026 06:22,Fin_2,Sales,E1008,3200,Manager Review,42
+RC013,4,Finance Review,06-07-2026 08:52,Fin_1,Sales,E1008,3200,Finance Review,150
+RC014,1,Submit Claim,04-07-2026 07:29,Employee,HR,E1030,8700,,89
+RC014,2,Manager Review,04-07-2026 10:25,Mgr_B,HR,E1030,8700,Submit Claim,176
+RC014,3,Finance Review,04-07-2026 12:27,Fin_2,HR,E1030,8700,Manager Review,122
+RC015,1,Submit Claim,03-07-2026 06:40,Employee,HR,E1003,3200,,160
+RC016,1,Submit Claim,01-07-2026 17:28,Employee,Sales,E1008,1800,,28
+RC017,1,Submit Claim,02-07-2026 03:37,Employee,HR,E1018,12000,,157
+RC017,2,Manager Review,02-07-2026 04:49,Mgr_B,HR,E1018,12000,Submit Claim,72
+RC017,3,Finance Review,02-07-2026 06:43,Fin_1,HR,E1018,12000,Manager Review,114
+RC018,1,Submit Claim,03-07-2026 15:23,Employee,Operations,E1012,1800,,23
+RC019,1,Submit Claim,06-07-2026 01:27,Employee,IT,E1026,8700,,147
+RC020,1,Submit Claim,03-07-2026 22:03,Employee,HR,E1009,8700,,123
+RC020,2,Manager Review,03-07-2026 22:25,Mgr_C,HR,E1009,8700,Submit Claim,22
+RC021,1,Submit Claim,05-07-2026 11:14,Employee,Sales,E1030,1200,,134
+RC021,2,Manager Review,05-07-2026 12:18,Mgr_B,Sales,E1030,1200,Submit Claim,64
+RC021,3,Finance Review,05-07-2026 12:43,Fin_1,Sales,E1030,1200,Manager Review,25
+RC021,4,Approve Reimbursement,05-07-2026 14:30,Finance_Manager,Sales,E1030,1200,Finance Review,107
+RC021,5,Payment,05-07-2026 16:19,Accounts,Sales,E1030,1200,Approve Reimbursement,109
+RC022,1,Submit Claim,05-07-2026 08:14,Employee,Operations,E1023,4500,,134
+RC022,2,Manager Review,05-07-2026 09:12,Mgr_B,Operations,E1023,4500,Submit Claim,58
+RC022,3,Finance Review,05-07-2026 10:17,Fin_1,Operations,E1023,4500,Manager Review,65
+RC022,4,Approve Reimbursement,05-07-2026 12:55,Finance_Manager,Operations,E1023,4500,Finance Review,158
+RC023,1,Submit Claim,03-07-2026 22:50,Employee,Sales,E1019,1200,,50
+RC023,2,Manager Review,04-07-2026 01:10,Mgr_A,Sales,E1019,1200,Submit Claim,140
+RC023,3,Finance Review,04-07-2026 02:07,Fin_1,Sales,E1019,1200,Manager Review,57
+RC024,1,Submit Claim,02-07-2026 02:38,Employee,HR,E1013,1800,,158
+RC024,2,Manager Review,02-07-2026 05:26,Mgr_A,HR,E1013,1800,Submit Claim,168
+RC024,3,Finance Review,02-07-2026 07:23,Fin_2,HR,E1013,1800,Manager Review,117
+RC024,4,Approve Reimbursement,02-07-2026 08:39,Finance_Manager,HR,E1013,1800,Finance Review,76
+RC024,5,Payment,02-07-2026 10:09,Accounts,HR,E1013,1800,Approve Reimbursement,90
+RC025,1,Submit Claim,04-07-2026 19:28,Employee,HR,E1022,8700,,28
+RC025,2,Manager Review,04-07-2026 21:35,Mgr_C,HR,E1022,8700,Submit Claim,127
+RC025,3,Finance Review,05-07-2026 00:09,Fin_1,HR,E1022,8700,Manager Review,154
